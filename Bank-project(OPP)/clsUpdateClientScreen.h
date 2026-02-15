@@ -9,7 +9,7 @@ class clsUpdateClientScreen :protected clsScreen
 
 {
 private:
-
+    
     static void _PrintClient(clsBankClient Client)
     {
         cout << "\nClient Card:";
@@ -51,6 +51,10 @@ public:
 
     static void ShowUpdateClientScreen()
     {
+        if (!CheckAccessRights(clsUser::enPermissions::pUpdateClients))
+        {
+            return;// this will exit the function and it will not continue
+        }
 
         _DrawScreenHeader("\tUpdate Client Screen");
 
@@ -66,7 +70,7 @@ public:
         }
 
         clsBankClient Client1 = clsBankClient::Find(AccountNumber);
-
+    
         _PrintClient(Client1);
 
         cout << "\nAre you sure you want to update this client y/n? ";
@@ -92,7 +96,7 @@ public:
             case  clsBankClient::enSaveResults::svSucceeded:
             {
                 cout << "\nAccount Updated Successfully :-)\n";
-
+              
                 _PrintClient(Client1);
                 break;
             }

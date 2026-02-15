@@ -8,7 +8,7 @@
 class clsFindClientScreen :protected clsScreen
 {
 
-private:
+private :
     static void _PrintClient(clsBankClient Client)
     {
         cout << "\nClient Card:";
@@ -29,6 +29,10 @@ public:
 
     static void ShowFindClientScreen()
     {
+        if (!CheckAccessRights(clsUser::enPermissions::pFindClient))
+        {
+            return;// this will exit the function and it will not continue
+        }
 
         _DrawScreenHeader("\tFind Client Screen");
 

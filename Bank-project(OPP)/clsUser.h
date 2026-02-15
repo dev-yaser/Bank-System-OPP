@@ -10,7 +10,7 @@ using namespace std;
 class clsUser : public clsPerson
 {
 private:
-
+    
     enum enMode { EmptyMode = 0, UpdateMode = 1, AddNewMode = 2 };
     enMode _Mode;
     string _UserName;
@@ -155,6 +155,7 @@ public:
         eAll = -1, pListClients = 1, pAddNewClient = 2, pDeleteClient = 4,
         pUpdateClients = 8, pFindClient = 16, pTranactions = 32, pManageUsers = 64
     };
+
 
     clsUser(enMode Mode, string FirstName, string LastName,
         string Email, string Phone, string UserName, string Password,
@@ -348,6 +349,17 @@ public:
     }
 
 
+    bool CheckAccessPermission(enPermissions Permission)
+    {
+        if (this->Permissions == enPermissions::eAll)
+            return true;
+
+        if ((Permission & this->Permissions) == Permission)
+            return true;
+        else
+            return false;
+
+    }
 
 };
 
