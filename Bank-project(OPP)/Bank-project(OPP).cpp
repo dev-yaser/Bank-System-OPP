@@ -5,7 +5,10 @@ int main()
 {
 	while (true)
 	{
-		clsLoginScreen::ShowLoginScreen();
+		if (!clsLoginScreen::ShowLoginScreen()) {
+			break; // Exit the loop and end the program if login fails after 3 attempts
+		}
+		
 
 	}
 	return 0;
