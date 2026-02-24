@@ -25,13 +25,27 @@ C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(186,12)
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsInputValidate.h(120,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(206,12): warning C4240: nonstandard extension used: access to 'clsBankClient::stTrnsferLogRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'Bank-project(OPP).cpp')
+      C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(152,12):
+      see declaration of 'clsBankClient::stTrnsferLogRecord'
+  
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(28,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(357,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(162,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(370,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(163,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Bank-project(OPP).cpp')
+  
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(164,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Bank-project(OPP).cpp')
+  
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(421,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Bank-project(OPP).cpp')
+  
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(434,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUtil.h(62,5): warning C4102: 'defualt': unreferenced label
@@ -40,10 +54,10 @@ C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUtil.h(62,5): 
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsTotalBalancesScreen.h(42,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsTransferScreen.h(47,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsTransferScreen.h(47,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(312,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(374,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(376,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(438,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(344,1): warning C4715: 'clsUser::Save': not all control paths return a value
   Bank-project(OPP).vcxproj -> C:\Users\User\source\repos\Bank-project(OPP)\x64\Debug\Bank-project(OPP).exe

@@ -20,7 +20,7 @@ private:
 
     }
 
-   static string _ReadAccountNumber()
+    static string _ReadAccountNumber()
     {
         string AccountNumber;
         cout << "\nPlease Enter Account Number to Transfer From: ";
@@ -33,27 +33,27 @@ private:
         return AccountNumber;
     }
 
-   static float ReadAmount(clsBankClient SourceClient)
-   {
-       float Amount;
+    static float ReadAmount(clsBankClient SourceClient)
+    {
+        float Amount;
 
-       cout << "\nEnter Transfer Amount? ";
+        cout << "\nEnter Transfer Amount? ";
 
-       Amount = clsInputValidate::ReadFloatNumber();
+        Amount = clsInputValidate::ReadFloatNumber();
 
-       while (Amount > SourceClient.AccountBalance)
-       {
-           cout << "\nAmount Exceeds the available Balance, Enter another Amount ? ";
-           Amount = clsInputValidate::ReadDblNumber();
-       }
-       return Amount;
-   }
+        while (Amount > SourceClient.AccountBalance)
+        {
+            cout << "\nAmount Exceeds the available Balance, Enter another Amount ? ";
+            Amount = clsInputValidate::ReadDblNumber();
+        }
+        return Amount;
+    }
 
 public:
 
     static void ShowTransferScreen()
     {
-      
+
         _DrawScreenHeader("\tTransfer Screen");
 
         clsBankClient SourceClient = clsBankClient::Find(_ReadAccountNumber());
@@ -66,13 +66,13 @@ public:
 
         float Amount = ReadAmount(SourceClient);
 
-        
+
         cout << "\nAre you sure you want to perform this operation? y/n? ";
         char Answer = 'n';
         cin >> Answer;
         if (Answer == 'Y' || Answer == 'y')
         {
-            if (SourceClient.Transfer(Amount, DestinationClient))
+            if (SourceClient.Transfer(Amount, DestinationClient, CurrentUser.UserName))
             {
                 cout << "\nTransfer done successfully\n";
             }
