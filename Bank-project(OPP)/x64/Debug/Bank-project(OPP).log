@@ -31,7 +31,7 @@ C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(2
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(357,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(363,28): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(370,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUtil.h(62,5): warning C4102: 'defualt': unreferenced label
@@ -40,6 +40,10 @@ C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUtil.h(62,5): 
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsTotalBalancesScreen.h(42,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsTransferScreen.h(47,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Bank-project(OPP).cpp')
+  
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(312,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(374,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(344,1): warning C4715: 'clsUser::Save': not all control paths return a value
   Bank-project(OPP).vcxproj -> C:\Users\User\source\repos\Bank-project(OPP)\x64\Debug\Bank-project(OPP).exe
