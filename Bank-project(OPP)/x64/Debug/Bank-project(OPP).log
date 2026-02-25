@@ -17,9 +17,12 @@ C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsString.h(328,3
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsString.h(376,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(186,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUtil.h(64,5): warning C4102: 'defualt': unreferenced label
   (compiling source file 'Bank-project(OPP).cpp')
-      C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(23,12):
+  
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(198,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'Bank-project(OPP).cpp')
+      C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(26,12):
       see declaration of 'clsUser::stLoginRegisterRecord'
   
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsInputValidate.h(120,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -48,9 +51,6 @@ C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(4
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(434,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUtil.h(62,5): warning C4102: 'defualt': unreferenced label
-  (compiling source file 'Bank-project(OPP).cpp')
-  
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsTotalBalancesScreen.h(42,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'Bank-project(OPP).cpp')
   
@@ -59,5 +59,5 @@ C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsTransferScreen
   
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(376,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
 C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsBankClient.h(438,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
-C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(344,1): warning C4715: 'clsUser::Save': not all control paths return a value
+C:\Users\User\source\repos\Bank-project(OPP)\Bank-project(OPP)\clsUser.h(360,1): warning C4715: 'clsUser::Save': not all control paths return a value
   Bank-project(OPP).vcxproj -> C:\Users\User\source\repos\Bank-project(OPP)\x64\Debug\Bank-project(OPP).exe
